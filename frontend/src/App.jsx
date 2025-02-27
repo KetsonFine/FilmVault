@@ -1,21 +1,16 @@
-
 import './App.css'
+import NavBar from './components/NavBar'
+
 
 function App() {
 
   return (
-    <>
-      <Radio/>
-      <div></div>
-    </>
+
+    <NavBar />
       
   )
 }
 
-function Radio(){
-  return(
-    <button>ClickMe</button>
-  );
-}
+
 
 export default App
